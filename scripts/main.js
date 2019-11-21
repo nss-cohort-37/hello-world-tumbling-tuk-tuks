@@ -1,3 +1,3 @@
-// import initializeDetailButtonEvents from "/scripts/main_dialog.js";
+import borderColorChange from './dialogue.js'
 
-// initializeDetailButtonEvents()
+borderColorChange()
