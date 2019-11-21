@@ -1,38 +1,57 @@
-const initializeDetailButtonEvents = () => {
-  // CAN'T TOUCH THIS - START
-  const allCloseButtons = document.querySelectorAll(".button__close")
+// const initializeDetailButtonEvents = () => {
 
-  for (const btn of allCloseButtons) {
-    btn.addEventListener(
-      "click",
-      theEvent => {
-        const dialogElement = theEvent.target.parentNode
-        dialogElement.close()
-      }
-    )
-  }
-  // CAN'T TOUCH THIS - END
+//   const allCloseButtons = document.querySelectorAll(".button__close")
 
-  // You will be writing code below this line
-
-  // Show Bart's details when the button is clicked
-  document.querySelector("#button__landmarks").addEventListener(
-    "click",
-    theClickEvent => {
-      const theDialog = document.querySelector("#details__cities_australia")
-      theDialog.showModal()
-    }
-  )
-
-
-  // CAN'T TOUCH THIS - END
-
-  // You will be writing code below this line
-
-  // Show Bart's details when the button is clicked
-
-}
+//   for (const btn of allCloseButtons) {
+//     btn.addEventListener(
+//       "click",
+//       theEvent => {
+//         const dialogElement = theEvent.target.parentNode
+//         dialogElement.close()
+//       }
+//     )
+//   }
 
 
 
-export default initializeDetailButtonEvents
+//   // Show cities details in dialog box when the button is clicked
+//   document.querySelector("#button__cities").addEventListener(
+//     "click",
+//     theClickEvent => {
+//       const theDialog = document.querySelector("#details__cities_australia")
+//       theDialog.showModal()
+//     }
+//   )
+
+
+//   // Show landmarks details in dialog box when the button is clicked
+
+//   document.querySelector("#button__landmarks").addEventListener(
+//     "click",
+//     theClickEvent => {
+//       const theDialog = document.querySelector("#details__landmarks_australia")
+//       theDialog.showModal()
+//     }
+//   )
+
+//   // Show leaders details in dialog box when the button is clicked
+
+//   document.querySelector("#button__leaders").addEventListener(
+//     "click",
+//     theClickEvent => {
+//       const theDialog = document.querySelector("#details__leaders_australia")
+//       theDialog.showModal()
+//     }
+//   )
+
+
+
+// }
+
+
+
+
+
+
+
+// export default initializeDetailButtonEvents
