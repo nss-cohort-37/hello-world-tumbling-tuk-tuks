@@ -1,0 +1,30 @@
+.header__image { width: 1250px; height: 700px;
+
+}
+
+.info { display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info__cities { border: solid; 
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+
+}
+
+.info__leaders { border: solid; 
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+
+}
+
+.info__landmarks { border: solid; 
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+
+
+}
