@@ -1,2 +1,7 @@
 @import 'article.css';
-@import 'nav.css'
+@import 'nav.css';
+
+
+  .links:hover {
+      color: coral;
+  }

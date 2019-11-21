@@ -1,24 +1,41 @@
-
 nav {
     border: 2px solid gray;
-    box-shadow: 1px 2px 2px gray;
-    padding: 10px 8px;
+    padding: 4px 8px;
     background-color: beige;
+    height: 150px;
   }
-  
   nav span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-  }
-  
+  } 
   .nav a {
     border: 2px solid gray;
     border-radius: 5px;
-    box-shadow: 1px -1px 2px gray;
     text-decoration: none;
     padding: 5px 8px;
-    background-color: cyan;
+    background-color: crimson;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
   }
+
+  .company__name {
+      height: 20px;
+      width: 100px;
+  }
+
+  .logo {
+      height: 70px;
+
+  }
+
   .nav {
-      flex-flow: wrap;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
     }
+
+.links {
+    text-align: center;
+}
