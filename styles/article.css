@@ -26,5 +26,17 @@
   width: 200px;
   height: 250px;
 
+}
 
+.cities__title{
+  font-weight: bold;
+  
+}
+
+.landmarks__title{
+  font-weight: bold;
+}
+
+.leaders__title{
+  font-weight: bold;
 }
