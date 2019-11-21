@@ -26,7 +26,14 @@
   width: 200px;
   height: 250px;
 
+}
 
+.cities__title{
+  font-weight: bold;
+  
+}
+
+<<<<<<< HEAD
 }
 .revealInfo { background: white;
   border: solid; 
@@ -56,3 +63,12 @@
 
 
 }
+=======
+.landmarks__title{
+  font-weight: bold;
+}
+
+.leaders__title{
+  font-weight: bold;
+}
+>>>>>>> master
