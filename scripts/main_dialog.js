@@ -1,57 +1,23 @@
 const initializeDetailButtonEvents = () => {
-
-  const allCloseButtons = document.querySelectorAll(".button__close")
+  const allCloseButtons = document.querySelectorAll(".button__close");
 
   for (const btn of allCloseButtons) {
-    btn.addEventListener(
-      "click",
-      theEvent => {
-        const dialogElement = theEvent.target.parentNode
-        dialogElement.close()
-      }
-    )
+    btn.addEventListener("click", theEvent => {
+      const dialogElement = theEvent.target.parentNode;
+      dialogElement.close();
+    });
   }
 
-
-
   // Show cities details in dialog box when the button is clicked
-  document.querySelector("#button__cities").addEventListener(
-    "click",
-    theClickEvent => {
-      const theDialog = document.querySelector("#details__cities_australia")
-      theDialog.showModal()
-    }
-  )
-
+  document
+    .querySelector("button[id^='button--']")
+    .addEventListener("click", theClickEvent => {
+      const dialogSiblingSelector = `#${theEvent.target.id}+dialog`;
+      const theDialog = document.querySelector(dialogSiblingSelector);
+      theDialog.showModal();
+    });
 
   // Show landmarks details in dialog box when the button is clicked
+};
 
-  document.querySelector("#button__landmarks").addEventListener(
-    "click",
-    theClickEvent => {
-      const theDialog = document.querySelector("#details__landmarks_australia")
-      theDialog.showModal()
-    }
-  )
-
-  // Show leaders details in dialog box when the button is clicked
-
-  document.querySelector("#button__leaders").addEventListener(
-    "click",
-    theClickEvent => {
-      const theDialog = document.querySelector("#details__leaders_australia")
-      theDialog.showModal()
-    }
-  )
-
-
-
-}
-
-
-
-
-
-
-
-// export default initializeDetailButtonEvents
+export default initializeDetailButtonEvents;
