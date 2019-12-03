@@ -1,19 +1,19 @@
 const landmarksCollection = [
     {
         Landmark: "Eiffel Tower",
-        Location: "Paris",
+        // Location: "Paris",
     },
     {
         Landmark: "Cathédrale Notre-Dame de Paris",
-        Location: "Paris"
+        // Location: "Paris"
     },
     {
         Landmark: "Arc de Triomphe",
-        Location: "Pairs"
+        // Location: "Pairs"
     },
     {
         Landmark: "Louvre Museum",
-        Location: "Paris"
+        // Location: "Paris"
     }
 ]
 

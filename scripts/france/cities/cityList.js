@@ -1,28 +1,17 @@
-import {useCity} from "./CityDataProvider.js"
-import CityComponent from "./city.js"
+import { useCities } from "./CityDataProvider.js";
+import CityComponent from "./city.js";
 
 const CityListComponent = () => {
+  const contentElement = document.querySelector(".cities__list");
 
-    // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector(".info")
-    const city = useCity()
+  const cities = useCities();
 
+  contentElement.innerHTML += `
+  ${cities
+    .map(city => {
+      return CityComponent(city);
+    })
+    .join("")}`;
+};
 
-    let allcityHTML = ""
-
-    for(const city of cities) {
-       const cityHTML = cityComponent(city)
-       allcityHTML += cityHTML
-    }
-
-    // Add to the existing HTML in the content element
-    contentElement.innerHTML += `
-    <section class="cityList">
-    ${
-        cities.map(city => cityComponent(city)).join("")
-    }
-    </section>
-    `
-}
-
-export default CityListComponent
+export default CityListComponent;

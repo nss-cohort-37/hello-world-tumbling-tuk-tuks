@@ -1,13 +1,7 @@
-const CityComponent = (city) => {
-    return`
-    <section class="info__cities">
-      <div class="cities__title">Cities</div>
-      <ul class="cities__list">
-          <li></li>
+const CityComponent = city => {
+  return `
+  <li>${city.name}</li>
+  `;
+};
 
-      </ul>
-    </section>
-    `
-}
-
-export default CityComponent
+export default CityComponent;

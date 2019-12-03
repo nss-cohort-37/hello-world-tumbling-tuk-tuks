@@ -1,26 +1,26 @@
 const cityCollection = [
     {
         name: "Paris",
-        established: "end of 3rd century",
+        // established: "end of 3rd century",
     },
     {
         name: "Mont Saint-Michel",
-        established: "8th century",
+        // established: "8th century",
     },
     {
         name: "Nice",
-        established: "",
+        // established: "",
     },
     {
         name: "Marseille",
-        established: "",
+        // established: "",
     },
     {
         name: "lyon",
-        established: "",
+        // established: "",
     }
 ]
 
-export const useCity = () => {
+export const useCities = () => {
     return cityCollection
 }

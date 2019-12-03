@@ -1,7 +1,8 @@
-import CityComponent from "./cities/city.js";
-import { useCity } from "./cities/CityDataProvider.js";
 import CityListComponent from "./cities/cityList.js";
+import LandmarkListComponent from "./landmarks/LandmarkList.js";
+import LeaderListComponent from "./leaders/LeadersList.js";
 
-CityComponent()
-useCity()
+
 CityListComponent()
+LandmarkListComponent()
+LeaderListComponent()
