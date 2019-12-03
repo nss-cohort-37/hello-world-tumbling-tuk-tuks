@@ -1,6 +1,6 @@
 const LeaderComponent = (leader) => {
   return ` 
-    
+  
       <li>${leader.name}</li>
 
 
