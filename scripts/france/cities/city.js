@@ -1,6 +1,13 @@
 const CityComponent = city => {
   return `
-  <li>${city.name}</li>
+
+    <dialog>
+
+      <div>${city.name}</div>
+
+
+    <button class="button--close">Close Dialog</button>
+    </dialog>
   `;
 };
 
