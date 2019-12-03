@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/styles/main.css">
   <title>Travel Planet Brochure</title>
   <link rel="stylesheet" href="styles/main.css">
 </head>
@@ -14,7 +15,8 @@
     <span>
       <h1 class="company__name">Travel Planet</h1>
       <br>
-      <img src="/images/globelogo.jpg" alt="logo of a globe" class="logo">    </span>
+      <img src="/images/globelogo.jpg" alt="logo of a globe" class="logo">
+    </span>
     <a href="/france.html" class="links">France</a>
     <a href="/italy.html" class="links">Italy</a>
     <a href="/scotland.html" class="links">Scotland</a>
@@ -23,39 +25,105 @@
 
   </nav>
   <header class="header">
-    <img src="images/767792-gorgerous-sydney-opera-house-wallpaper-2046x1206-for-1080p.jpg" alt="picture of the Sydney Opera House" class="header__image">
+    <img src="images/767792-gorgerous-sydney-opera-house-wallpaper-2046x1206-for-1080p.jpg"
+      alt="picture of the Sydney Opera House" class="header__image">
     <h2 class="country__name">Australia</h2>
   </header>
+
   <article class="info">
     <section class="info__cities">
-      <div class="cities__title">Cities</div>
-      <ul class="cities__list">
-        <li>Sydney</li>
-        <li>Brisbane</li>
-        <li>Melbourne</li>
-        <li>Adelaide</li>
-        <li>Canberra</li>
-      </ul>
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <!-- front content -->
+            <div class="cities__title">Cities</div>
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <ul class="cities__list">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div>
+        <button id="button__cities" class="button">Details</button>
+      </div> -->
+      <!-- <dialog class="dialog__cities" id="details__cities_australia"> -->
+
+      <!-- <div> -->
+      <!-- <button id="close__landmarks" class="button__close">Details</button> -->
+      <!-- </div> -->
+      <!-- </dialog> -->
+
     </section>
+
     <section class="info__landmarks">
-      <div class="landmarks__title">Landmarks</div>
-      <ul class="landmarks__list">
-        <li>Sydney Opera House</li>
-        <li>Uluru</li>
-        <li>Great Barrier Reef</li>
-        <li>Port Arthur</li>
-        <li>Eureka Skydeck</li>
-      </ul>
+
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <!-- front content -->
+            <div class="landmarks__title">Landmarks</div>
+
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <ul class="landmarks__list">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <div>
+        <button id="button__landmarks" class="button">Details</button>
+      </div>
+      <div>
+        <dialog class="dialog__landmarks" id="details__landmarks_australia">
+
+        <div>
+          <button class="button__close" id="close__landmarks">Close Detail</button>
+        </div>
+        </dialog>
+      </div> -->
+
     </section>
+
+
     <section class="info__leaders">
-      <div class="leaders__title">Heads of State</div>
-      <ul class="leaders__list">
-        <li>Queen Elizabeth II</li>
-        <li>Prime Minister Scott Morrison</li>
-        <li>Leader of the House Bill Shorten</li>
-      </ul>
+
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+          <div class="front">
+            <!-- front content -->
+            <div class="leaders__title">Heads of State</div>
+
+          </div>
+          <div class="back">
+            <!-- back content -->
+            <ul class="leaders__list">
+              <!-- <li>Queen Elizabeth II</li>
+              <li>Prime Minister Scott Morrison</li>
+              <li>Leader of the House Bill Shorten</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <!-- <button id="button__leaders" class="button">Details</button> -->
+        <!-- </div> -->
+        <!-- <dialog class="dialog__leaders" id="details__leaders_australia"> -->
+
+        <!-- <div> -->
+        <!-- <button id="close__landmarks" class="button__close">Details</button> -->
+        <!-- </div> -->
+        <!-- </dialog> -->
+
     </section>
+
   </article>
+  <script type="module" src="/scripts/main.js"></script>
 </body>
 
 </html>
