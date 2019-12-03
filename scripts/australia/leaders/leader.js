@@ -1,16 +1,15 @@
 const leaderComponent = leader => {
   return `
   <button id="button--${leader.id}" class="button">${leader.name}</button>
-  </div>
-  <div>
-    <dialog class="dialog__cities" id="${leader.id}">
+ 
+  <dialog class="dialog__leaders" id="button--${leader.id}">
       <div>${leader.img}</div>
       <div>${leader.name}</div>
       <div>Title: ${leader.title}</div>
 
   
     <div>
-      <button class="button__close" id="close__cities">Close Detail</button>
+      <button class="button--close" id="close__leaders">Close Detail</button>
     </div>
     </dialog>
   </div>
