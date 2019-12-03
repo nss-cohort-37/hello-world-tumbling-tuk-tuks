@@ -1,15 +1,31 @@
 const cityCollection = [
   {
-    name: "Sydney"
+    id: "sydney",
+    name: "Sydney",
+    img: "x",
+    population: "x",
+    year: "x"
   },
   {
-    name: "Brisbane"
+    id: "brisbane",
+    name: "Brisbane",
+    img: "x",
+    population: "x",
+    year: "x"
   },
   {
-    name: "Adelaide"
+    id: "adelaide",
+    name: "Adelaide",
+    img: "x",
+    population: "x",
+    year: "x"
   },
   {
-    name: "Canberra"
+    id: "canberra",
+    name: "Canberra",
+    img: "x",
+    population: "x",
+    year: "x"
   }
 ];
 
