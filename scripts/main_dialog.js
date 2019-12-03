@@ -1,5 +1,5 @@
 const initializeDetailButtonEvents = () => {
-  const allCloseButtons = document.querySelectorAll(".button__close");
+  const allCloseButtons = document.querySelectorAll(".button--close");
 
   for (const btn of allCloseButtons) {
     btn.addEventListener("click", theEvent => {
@@ -8,16 +8,16 @@ const initializeDetailButtonEvents = () => {
     });
   }
 
-  // Show cities details in dialog box when the button is clicked
-  document
-    .querySelector("button[id^='button--']")
-    .addEventListener("click", theClickEvent => {
+  const allDetailButtons = document.querySelectorAll("button[id^='button--']");
+
+  // Add an event listener to each one
+  for (const btn of allDetailButtons) {
+    btn.addEventListener("click", theEvent => {
       const dialogSiblingSelector = `#${theEvent.target.id}+dialog`;
       const theDialog = document.querySelector(dialogSiblingSelector);
       theDialog.showModal();
     });
-
-  // Show landmarks details in dialog box when the button is clicked
+  }
 };
 
 export default initializeDetailButtonEvents;
