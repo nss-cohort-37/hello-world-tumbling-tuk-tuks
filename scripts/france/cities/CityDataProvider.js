@@ -1,21 +1,38 @@
 const cityCollection = [
     {
+        id: "Paris",
         name: "Paris",
+        img:"x",
+        population:"x",
+        year:"x",
     },
     {
+        id: "Saint-michel",
         name: "Mont Saint-Michel",
+        img:"x",
+        population:"x",
+        year:"x",
     },
     {
+        id: "Nice",
         name: "Nice",
-        // established: "",
+        img:"x",
+        population:"x",
+        year:"x",
     },
     {
+        id: "Marseille",
         name: "Marseille",
-        // established: "",
+        img:"x",
+        population:"x",
+        year:"x",
     },
     {
+        id: "lyon",
         name: "lyon",
-        // established: "",
+        img:"x",
+        population:"x",
+        year:"x",
     }
 ]
 
