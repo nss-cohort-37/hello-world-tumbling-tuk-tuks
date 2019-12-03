@@ -1,19 +1,43 @@
 const cityData = [{
+    id: "edinburg",
+    name: "Edinburg",
+    img: "x",
+    population: "x",
+    year: "x"
 
-  name: "Edinburg"
   },
   
-  {name: "Glasgow"
+  {
+  id: "glasgow",
+  name: "Glasgow",
+  img: "x",
+  population: "x",
+  year: "x"
   
   },
   
-  {name: "Dundee"
+  {
+  id: "dundee",
+  name: "Dundee",
+  img: "x",
+  population: "x",
+  year: "x"
   },
 
-  {name: "Aberdeen"
+  {
+  id: "aberdeen",
+  name: "Aberdeen",
+  img: "x",
+  population: "x",
+  year: "x"
   },
 
-  {name: "Inverness"
+  {
+  id: "iverness",
+  name: "Iverness",
+  img: "x",
+  population: "x",
+  year: "x"
   }
   ]
   
