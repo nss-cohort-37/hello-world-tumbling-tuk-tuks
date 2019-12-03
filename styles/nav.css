@@ -3,6 +3,7 @@ nav {
     padding: 4px 8px;
     background-color: beige;
     height: 150px;
+    display: flex;
   }
   nav span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,7 +14,7 @@ nav {
     border-radius: 5px;
     text-decoration: none;
     padding: 5px 8px;
-    background-color: crimson;
+    background-color: gray;
     text-align: center;
     font-weight: bold;
     color: blue;
@@ -38,4 +39,8 @@ nav {
 
 .links {
     text-align: center;
+    height: 15px;
+    flex-basis: 20%;
+    background-color: azure;
+    margin: 3pt;
 }
