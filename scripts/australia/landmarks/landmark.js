@@ -9,9 +9,7 @@ const landmarkComponent = landmark => {
       <div>Established: ${landmark.location}</div>
 
   
-    <div>
       <button class="button--close" id="close__cities">Close Detail</button>
-    </div>
     </dialog>
   </div>
   `;

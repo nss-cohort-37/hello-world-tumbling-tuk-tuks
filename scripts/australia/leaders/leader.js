@@ -8,9 +8,7 @@ const leaderComponent = leader => {
       <div>Title: ${leader.title}</div>
 
   
-    <div>
       <button class="button--close" id="close__leaders">Close Detail</button>
-    </div>
     </dialog>
   </div>
   `;
