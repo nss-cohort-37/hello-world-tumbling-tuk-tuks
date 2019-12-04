@@ -6,7 +6,7 @@ const CityComponent = (city) => {
 
 
   <dialog class="dialog__cities" id="button--${city.id}">
-    <img src=${city.img}>
+    <img class="city__image" src=${city.img}>
     <div>${city.name}</div>
     <div>Population: ${city.population}</div>
     <div>Established: ${city.year}</div>

@@ -48,6 +48,18 @@ h2 {
   font-weight: bold;
 }
 
+.landmark__image {
+  width: 500px;
+}
+
+.leader__image {
+  width: 500px;
+}
+
+.city__image {
+  width: 500px;
+}
+
 .flip-container {
   perspective: 1000px;
 }
