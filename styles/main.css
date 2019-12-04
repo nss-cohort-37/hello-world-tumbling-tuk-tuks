@@ -1,7 +1,6 @@
-@import 'article.css';
-@import 'nav.css';
+@import "article.css";
+@import "nav.css";
 
-
-  .links:hover {
-      color: coral;
-  }
+.links:hover {
+  color: rgb(29, 18, 175);
+}

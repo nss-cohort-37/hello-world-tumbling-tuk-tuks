@@ -1,46 +1,44 @@
 nav {
-    border: 2px solid gray;
-    padding: 4px 8px;
-    background-color: beige;
-    height: 150px;
-    display: flex;
-  }
-  nav span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-  } 
-  .nav a {
-    border: 2px solid gray;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 5px 8px;
-    background-color: gray;
-    text-align: center;
-    font-weight: bold;
-    color: blue;
-  }
+  border: 2px solid gray;
+  padding: 4px 8px;
+  background-color: white;
+  height: 150px;
+  display: flex;
+}
+nav span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.nav a {
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 8px;
+  background-color: rgb(172, 170, 170);
+  text-align: center;
+  font-weight: bold;
+  color: rgb(11, 11, 12);
+}
 
-  .company__name {
-      height: 20px;
-      width: 100px;
-  }
+.company__name {
+  height: 20px;
+  width: 100px;
+}
 
-  .logo {
-      height: 70px;
+.logo {
+  height: 70px;
+}
 
-  }
-
-  .nav {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      
-    }
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 .links {
-    text-align: center;
-    height: 15px;
-    flex-basis: 20%;
-    background-color: azure;
-    margin: 3pt;
+  text-align: center;
+  height: 18px;
+  flex-basis: 20%;
+  background-color: azure;
+  margin: 5pt;
 }
