@@ -3,8 +3,8 @@ const cityCollection = [
     id: "sydney",
     name: "Sydney",
     img: "./images/sydneySkyline.jpg",
-    population: "1788",
-    year: "5.23 million"
+    population: "5.23 million",
+    year: "1788"
   },
   {
     id: "brisbane",

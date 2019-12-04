@@ -87,8 +87,10 @@ h2 {
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg);
-  /* background-image: url(/images/sydneyoperahouse.jpg); */
-  background-color: rgb(107, 162, 172);
+  background-image: url(/images/travel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(107, 162, 172); */
 }
 
 /* back, initially hidden pane */
@@ -100,4 +102,6 @@ h2 {
 
 .button {
   flex-basis: 20%;
+  margin: 5pt;
+  padding: 5pt;
 }
