@@ -2,7 +2,7 @@ const CityComponent = city => {
   return `<div>
   <button id="button--${city.id}" class="button">${city.name}</button>
   <dialog class="dialog__cities" id="button--${city.id}">
-    <img src=${city.img}>
+    <img class="city__image" src=${city.img}>
     <div>${city.name}</div>
     <div>Population: ${city.population}</div>
     <div>Established: ${city.year}</div>
@@ -15,4 +15,3 @@ const CityComponent = city => {
 };
 
 export default CityComponent;
-
