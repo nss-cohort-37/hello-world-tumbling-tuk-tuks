@@ -1,5 +1,6 @@
 const landmarkComponent = landmark => {
   return `
+<div>
   <button id="button--${landmark.id}" class="button">${landmark.name}</button>
   
   <dialog class="dialog__cities" id="button--${landmark.id}">
