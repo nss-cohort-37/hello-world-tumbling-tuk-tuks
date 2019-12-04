@@ -13,7 +13,6 @@ const landmarkComponent = landmark => {
       <button class="button--close" id="close__landmarks">Close Detail</button>
     </dialog>
   </div>
-  <br>
   `;
 };
 

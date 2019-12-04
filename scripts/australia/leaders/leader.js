@@ -12,7 +12,6 @@ const leaderComponent = leader => {
       <button class="button--close" id="close__leaders">Close Detail</button>
     </dialog>
   </div>
-  <br>
   `;
 };
 

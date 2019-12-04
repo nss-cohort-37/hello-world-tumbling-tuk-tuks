@@ -10,7 +10,6 @@ const CityComponent = city => {
     <button class="button--close" id="close__cities">Close Detail</button>
   </dialog>
 </div>
-
   `;
 };
 
