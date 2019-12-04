@@ -1,19 +1,31 @@
 const landmarksCollection = [
     {
-        Landmark: "Eiffel Tower",
-        // Location: "Paris",
+        id: "eiffel",
+        name: "Eiffel Tower",
+        location: "Paris",
+        img:"./images/eiffel.jpg",
+        year:"1887",
     },
     {
-        Landmark: "Cathédrale Notre-Dame de Paris",
-        // Location: "Paris"
+        id:"notreDame",
+        name: "Cathédrale Notre-Dame de Paris",
+        location: "Paris",
+        img:"./images/notre-dame.jpg",
+        year:"1163",
     },
     {
-        Landmark: "Arc de Triomphe",
-        // Location: "Pairs"
+        id:"triomphe",
+        name: "Arc de Triomphe",
+        location: "Pairs",
+        img:"./images/arctriomphe.jpg",
+        year:"1806",
     },
     {
-        Landmark: "Louvre Museum",
-        // Location: "Paris"
+        id:"louvre",
+        name: "Louvre Museum",
+        location: "Paris",
+        img:"./images/louvre.jpg",
+        year:"1793",
     }
 ]
 

@@ -31,7 +31,9 @@ nav {
       height: 70px;
       flex-direction: ;
 
-  }
+.logo {
+  height: 70px;
+}
 
   .nav {
       display: flex;
@@ -42,9 +44,9 @@ nav {
     }
 
 .links {
-    text-align: center;
-    height: 15px;
-    flex-basis: 20%;
-    background-color: azure;
-    margin: 3pt;
+  text-align: center;
+  height: 18px;
+  flex-basis: 20%;
+  background-color: azure;
+  margin: 5pt;
 }

@@ -1,13 +1,27 @@
 const leaderData = [{
 
-name: "Queen Elizabeth II"
+  id: "queenelizabethII",
+  name: "Queen Elizabeth II",
+  img: "./images/queenelizabeth.jpg",
+  title: "Queen"
+
+
 },
 
-{name: "Nicola Sturgeon"
+{
+
+id: "nicolasturgeon",
+name: "Nicola Sturgeon",
+img: "./images/nicolasturgeon.jpg",
+title: "Current First Minister"
 
 },
 
-{name: "Donald Dewar"
+{
+id: "donalddewar",
+name: "Donald Dewar",
+img: "./images/donalddewar.jpg",
+title: "Former First Minister"
 }
 ]
 
