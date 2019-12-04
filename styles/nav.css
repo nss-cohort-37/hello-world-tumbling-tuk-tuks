@@ -1,23 +1,14 @@
 nav {
     border: 2px solid gray;
-    padding: 4px 8px;
+    padding: 8px 8px;
     background-color: beige;
     height: 150px;
   }
-  nav span {
+    nav span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
   } 
-  .nav a {
-    border: 2px solid gray;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 5px 8px;
-    background-color: crimson;
-    text-align: center;
-    font-weight: bold;
-    color: blue;
-  }
+
 
   .company__name {
       height: 20px;
@@ -26,6 +17,7 @@ nav {
 
   .logo {
       height: 70px;
+      flex-direction: ;
 
   }
 
@@ -33,9 +25,13 @@ nav {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      justify-content: space-around;
       
     }
 
 .links {
     text-align: center;
+    font-weight: bold;  
+    background-color: tan;
+    color: blue;
 }
