@@ -3,28 +3,28 @@ const landmarksCollection = [
         id: "eiffel",
         name: "Eiffel Tower",
         Location: "Paris",
-        img:"",
+        img:"./images/eiffel.jpg",
         year:"1887",
     },
     {
         id:"notreDame",
         name: "Cathédrale Notre-Dame de Paris",
         Location: "Paris",
-        img:"",
+        img:"./images/notre-dame.jpg",
         year:"1163",
     },
     {
         id:"triomphe",
         name: "Arc de Triomphe",
         Location: "Pairs",
-        img:"",
+        img:"./images/arctriomphe.jpg",
         year:"",
     },
     {
         id:"louvre",
         name: "Louvre Museum",
         Location: "Paris",
-        img:"",
+        img:"./images/louvre.jpg",
         year:"",
     }
 ]

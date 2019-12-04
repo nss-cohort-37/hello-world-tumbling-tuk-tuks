@@ -1,18 +1,13 @@
 const CityComponent = city => {
-  return `
-  <div>
-  <button id="button__cities" class="button">${city.name}</button>
-</div>
-<div>
-  <dialog class="dialog__cities" id="${city.id}">
-    <div>${city.img}</div>
+  return `<div>
+  <button id="button--${city.id}" class="button">${city.name}</button>
+  <dialog class="dialog__cities" id="button--${city.id}">
+    <img src=${city.img}>
     <div>${city.name}</div>
     <div>Population: ${city.population}</div>
     <div>Established: ${city.year}</div>
 
-  <div>
-    <button class="button__close" id="close__cities">Close Detail</button>
-  </div>
+    <button class="button--close" id="close__cities">Close Detail</button>
   </dialog>
 </div>
 
@@ -20,3 +15,4 @@ const CityComponent = city => {
 };
 
 export default CityComponent;
+

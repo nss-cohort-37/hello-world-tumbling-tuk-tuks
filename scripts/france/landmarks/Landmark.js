@@ -1,22 +1,19 @@
-const LandmarkComponent = landmarks => {
-    return `
-  <button id="button__cities" class="button">${landmarks.name}</button>
-  </div>
-  <div>
-    <dialog class="dialog__cities" id="${landmarks.id}">
-      <div>${landmarks.img}</div>
-      <div>${landmarks.name}</div>
-      <div>Established: ${landmarks.year}</div>
-      <div>Established: ${landmarks.location}</div>
+const landmarkComponent = landmark => {
+  return `
+  <button id="button--${landmark.id}" class="button">${landmark.name}</button>
+  
+  <dialog class="dialog__cities" id="button--${landmark.id}">
+      <img class="landmark__image" src=${landmark.img}>
+      <div>${landmark.name}</div>
+      <div>Established: ${landmark.year}</div>
+      <div>Location: ${landmark.location}</div>
 
   
-    <div>
-      <button class="button__close" id="close__cities">Close Detail</button>
-    </div>
+      <button class="button--close" id="close__cities">Close Detail</button>
     </dialog>
   </div>
-    `;
-  };
-  
-  export default LandmarkComponent;
-  
+  <br>
+  `;
+};
+
+export default landmarkComponent;
