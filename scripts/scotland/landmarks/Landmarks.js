@@ -1,31 +1,31 @@
 const LandmarkComponent = (landmark) => {
+  let landmarkId = landmark.id.split(" ").join("-")
+  
   return ` 
-  <button id="button__cities" class="button">${landmark.name}</button>
-  </div>
   <div>
-    <dialog class="dialog__cities" id="${landmark.id}">
-      <div>${landmark.img}</div>
+    <button id="button--${landmarkId}" class="button">${landmark.name}</button>
+  
+  
+    <dialog class="dialog__landmark" id="button--${landmarkId}">
+      <img src=${landmark.img}>
       <div>${landmark.name}</div>
       <div>Established: ${landmark.year}</div>
       <div>Established: ${landmark.location}</div>
 
   
-    <div>
-      <button class="button__close" id="close__cities">Close Detail</button>
-    </div>
+    
+      <button class="button--close" id="close__landmark">Close Detail</button>
+    
     </dialog>
   </div>
-  `;
-};
+  `
+}
 
 
 
 
 
 
-    
   
-
-
 
 export default LandmarkComponent

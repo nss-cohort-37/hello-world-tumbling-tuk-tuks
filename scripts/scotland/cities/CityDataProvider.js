@@ -10,7 +10,7 @@ const cityData = [{
   {
   id: "glasgow",
   name: "Glasgow",
-  img: "x",
+  img: " ",
   population: "x",
   year: "x"
   
