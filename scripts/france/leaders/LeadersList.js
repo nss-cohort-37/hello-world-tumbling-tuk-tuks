@@ -1,5 +1,5 @@
-import { useLeaders } from "./leadersDataProvider.js";
 import LeaderComponent from "./Leaders.js";
+import { useLeaders } from "./leadersDataProvider.js";
 
 const LeaderListComponent = () => {
   const contentElement = document.querySelector(".leaders__list");
