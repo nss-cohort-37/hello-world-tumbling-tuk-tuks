@@ -1,7 +1,7 @@
 const cityData = [{
     id: "edinburg",
     name: "Edinburg",
-    img: "./images/iverness.jpg",
+    img: "./images/edinburg.jpeg",
     population: "482,000",
     year: "12th Century"
 
@@ -10,34 +10,34 @@ const cityData = [{
   {
   id: "glasgow",
   name: "Glasgow",
-  img: " ",
-  population: "x",
-  year: "x"
+  img: "./images/glasgow.jpg",
+  population: "598,830",
+  year: "6th Century"
   
   },
   
   {
   id: "dundee",
   name: "Dundee",
-  img: "x",
-  population: "x",
-  year: "x"
+  img: "./images/dundee.jpg",
+  population: "148,270",
+  year: "c.1892"
   },
 
   {
   id: "aberdeen",
   name: "Aberdeen",
-  img: "x",
-  population: "x",
-  year: "x"
+  img: "./images/aberdeen.jpg",
+  population: "208,000",
+  year: "8th Century"
   },
 
   {
   id: "iverness",
   name: "Iverness",
-  img: "x",
-  population: "x",
-  year: "x"
+  img: "./images/iverness.jpg",
+  population: "46,870",
+  year: "12th Century"
   }
   ]
   

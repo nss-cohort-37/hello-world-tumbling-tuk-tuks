@@ -10,7 +10,7 @@ const LandmarkComponent = (landmark) => {
       <img src=${landmark.img}>
       <div>${landmark.name}</div>
       <div>Established: ${landmark.year}</div>
-      <div>Established: ${landmark.location}</div>
+      <div>Location: ${landmark.location}</div>
 
   
     

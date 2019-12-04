@@ -3,44 +3,44 @@ const landmarkData = [
   {
   id: "edinburg castle",
   name: "Edinburg Castle",
-  location: "Sydney",
-  img: "x",
-  year: "x"
+  location: "Edinburg",
+  img: "./images/edinburgcastle.jpg",
+  year: "2nd Century"
   
   },
   
   {
   id: "loch ness",
   name: "Loch Ness",
-  location: "Sydney",
-  img: "x",
-  year: "x"
+  location: "Scottish Highlands",
+  img: "./images/lochness.jpg",
+  year: "Danw of Creation"
   },
 
   {
   id: "loch lomond",
   name: "Loch Lomond",
-  location: "Sydney",
-  img: "x",
-  year: "x"
+  location: "Highland Boundary Fault",
+  img: "./images/lochlomond.jpg",
+  year: "Beginning of Time"
   },
 
   { 
   id: "isle of skye",
   name: "Isle of Skye",
-  location: "Sydney",
-  img: "x",
-  year: "x"
+  location: "Inner Hebrides",
+  img: "./images/isleoftheskye.jpg",
+  year: "Dont Know, Dont Care"
 
 
 
   },
 {
-  id: "arthur's seat",
-  name: "Arthur's Seat",
-  location: "Sydney",
-  img: "x",
-  year: "x"
+  id: "arthurs seat",
+  name: "Arthurs Seat",
+  location: "Edinburg",
+  img: "./images/arthursseat.jpg",
+  year: "Only God knows when"
 }
 
   ]
