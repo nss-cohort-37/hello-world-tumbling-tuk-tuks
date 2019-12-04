@@ -17,9 +17,26 @@ const borderColorChange = () => {
   }
 }
 
+const borderColorChange = () => {
+  const fishTips = document.querySelectorAll("ul")
+
+  for (const ul of fishTips) {
+      ul.addEventListener(
+          "mouseover",
+          (theMouseOverEvent) => {
+              ul.style.visibility = "hidden";
+          }
+      )
 
 
-
-
+      ul.addEventListener("mouseout", (theMouseOutEvent) => {
+          ul.style.display = "";
+      })
+  }
+}
 
 export default borderColorChange
+
+
+
+
