@@ -1,9 +1,9 @@
 const cityData = [{
     id: "edinburg",
     name: "Edinburg",
-    img: "x",
-    population: "x",
-    year: "x"
+    img: "./images/iverness.jpg",
+    population: "482,000",
+    year: "12th Century"
 
   },
   
